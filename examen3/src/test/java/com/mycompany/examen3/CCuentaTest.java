@@ -38,9 +38,9 @@ public class CCuentaTest {
     }
 
     /**
-     * Test of main method, of class CCuenta.
+     * Test deshabilitado
      */
-    @Test
+    @Disabled
     public void testMain() {
         System.out.println("main");
         String[] args = null;

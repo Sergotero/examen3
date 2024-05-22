@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
-package com.mycompany.examen3;
+package examen3refactorizado;
 
+import examen3refactorizado.CCuenta;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -15,6 +16,7 @@ import org.junit.jupiter.api.Disabled;
 /**
  *
  * @author Sergio Otero
+ * @version 1
  */
 public class CCuentaTest {
     
@@ -48,10 +50,9 @@ public class CCuentaTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
-    /**
-     * @param cantidad double que se utiliza para introducir una cantidad en el sistema
-     */
+    
+    // Cuando se realizaron las pruebas, el atributo dSaldo era público. Al haberse cambiado, da error.
+    
     @Test
     public void testIngresar_1() {
         System.out.println("Prueba método ingresar 1");
@@ -63,9 +64,7 @@ public class CCuentaTest {
         int result = instance.ingresar(cantidad);
         assertEquals(expResult, result);
     }
-    /**
-     * @param cantidad double que se utiliza para introducir una cantidad en el sistema
-     */
+
     @Test
     public void testIngresar_2() {
         System.out.println("Prueba método ingresar 2");
@@ -78,9 +77,7 @@ public class CCuentaTest {
         assertEquals(expResult, result);
     }
    
-    /**
-     * @param cantidad double que se utiliza para introducir una cantidad en el sistema
-     */
+
     @Test
     public void testIngresar_3() {
         System.out.println("Prueba método ingresar 3");
@@ -94,9 +91,6 @@ public class CCuentaTest {
     }
     
     
-    /**
-     * @param cantidad double que se utiliza para introducir una cantidad en el sistema
-     */
     @Test
     public void testIngresar_4() {
         System.out.println("Prueba método ingresar 4");

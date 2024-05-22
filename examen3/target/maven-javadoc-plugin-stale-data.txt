@@ -1,0 +1,39 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'22'
+-sourcepath
+'C:/Users/persona/Documents/NetBeansProjects/examen3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/persona/Documents/NetBeansProjects/examen3/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'examen3 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'examen3 1.0-SNAPSHOT API'
+examen3refactorizado
+C:\Users\persona\Documents\NetBeansProjects\examen3\src\main\java = 1716398571249
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\allclasses-index.html = 1716399772491
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\allpackages-index.html = 1716399772491
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\element-list = 1716399772412
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\help-doc.html = 1716399772537
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\index-all.html = 1716399772522
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\index.html = 1716399772537
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\member-search-index.js = 1716399772506
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\module-search-index.js = 1716399772491
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\overview-tree.html = 1716399772475
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\package-search-index.js = 1716399772491
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\search.html = 1716399772522
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\tag-search-index.js = 1716399772506
+C:\Users\persona\Documents\NetBeansProjects\examen3\target\site\apidocs\type-search-index.js = 1716399772506

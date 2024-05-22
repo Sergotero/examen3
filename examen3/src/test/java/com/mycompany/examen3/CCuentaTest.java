@@ -53,7 +53,7 @@ public class CCuentaTest {
      * Test of ingresar method, of class CCuenta.
      */
     @Test
-    public void testIngresar() {
+    public void testIngresar_1() {
         System.out.println("ingresar");
         double cantidad = 0.0;
         CCuenta instance = new CCuenta();
@@ -63,6 +63,19 @@ public class CCuentaTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+    
+    @Test
+    public void testIngresar_2() {
+        System.out.println("ingresar");
+        double cantidad = 0.0;
+        CCuenta instance = new CCuenta();
+        int expResult = 0;
+        int result = instance.ingresar(cantidad);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+    
 
     /**
      * Este test se ha deshabilitado

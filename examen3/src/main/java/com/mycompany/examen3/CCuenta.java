@@ -1,5 +1,10 @@
 package com.mycompany.examen3;
 
+/**
+ * 
+ * @author Sergio Otero
+ */
+
 public class CCuenta {
     // Propiedades de la Clase Cuenta
     public double dSaldo;
@@ -27,7 +32,12 @@ public class CCuenta {
 
     }
 
-    /* Metodo para ingresar cantidades en la cuenta. Modifica el saldo. */
+    /**
+     * Metodo para ingresar cantidades en la cuenta. Modifica el saldo.
+     * @param cantidad double que se utiliza para señalar la cantidad a ingresar.
+     * @return iCoderr int que señala el tipo de error que se ha producido. 0 es ninguno y 1 es que ha habido un fallo.
+     */
+
     public int ingresar(double cantidad) {
         int iCodErr = 0;
 
@@ -46,8 +56,9 @@ public class CCuenta {
         return iCodErr;
     }
 
-    /*
+    /**
      * Metodo para retirar cantidades en la cuenta. Modifica el saldo.
+     * @param cantidad double que se utiliza para señalar la cantidad a retirar.
      */
     public void retirar(double cantidad) {
         if (cantidad <= 0) {

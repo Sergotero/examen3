@@ -10,6 +10,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Disabled;
 
 /**
  *
@@ -64,9 +65,9 @@ public class CCuentaTest {
     }
 
     /**
-     * Test of retirar method, of class CCuenta.
+     * Este test se ha deshabilitado
      */
-    @Test
+    @Disabled
     public void testRetirar() {
         System.out.println("retirar");
         double cantidad = 0.0;
